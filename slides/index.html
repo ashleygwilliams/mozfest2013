@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Learn you some Open Source for Great Good!</title>
+
+		<meta name="description" content="Presentation on contributing to open source software. Mozfest Oct 2013">
+		<meta name="author" content="Ashley Williams">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800' rel='stylesheet' type='text/css'>
+		<link href='./css/custom.css' rel='stylesheet' type='text/css'>
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				
+				<section>
+					<img src="./img/hiimashley.png"/>
+				</section>
+
+				<section>
+					<img src="./img/whyday.png"/>
+				</section>
+
+				<section>
+					<img src="http://media.tumblr.com/2172ea89e649c4119046cf4d8e084947/tumblr_inline_mv6e6mQV4b1r79k32.gif"/>
+				</section>
+
+				<section>
+					<img src="./img/why.png"/>
+				</section>
+
+				<section>
+					<img src="./img/opensourcebreakups.png"/>
+				</section>
+
+				<section>
+					<img src="./img/plusonebugs.png"/>
+				</section>
+
+				<section>
+					<img src="./img/toolsarebad.png"/>
+				</section>
+
+				<section>
+					<img src="./img/evanmisshula_contrib.png"/>
+				</section>
+
+				<section>
+					<img src="./img/errormessages.png"/>
+				</section>
+
+				<section>
+					<img src="./img/havesomethingtosay.png"/>
+				</section>
+
+				<section>
+					<img src="./img/caseywest_contrib.png"/>
+				</section>
+
+				<section>
+					<img src="./img/peoplenotbots.png"/>
+				</section>
+
+				<section>
+					<img src="./img/stephenball_contrib.png"/>
+				</section>
+
+				<section>
+					<img src="./img/helpus1.png"/>
+				</section>
+
+				<section>
+					<img src="./img/contributedocs.png"/>
+				</section>
+
+				<section>
+					<img src="./img/pickaweirdcorner.png"/>
+				</section>
+
+				<section>
+					<img src="./img/alandonahue_contrib.png"/>
+				</section>
+
+				<section>
+					<img src="http://media.tumblr.com/45dd165cef2236ef69bc97e1b0309743/tumblr_inline_mv0x4pgozw1r79k32.gif"/>
+				</section>
+
+				<section>
+					<img src="./img/workhard.png"/>
+				</section>
+
+				<section>
+					<img src="./img/makeamistake.png"/>
+				</section>
+
+				<section>
+					<img src="./img/lessfun.png"/>
+				</section>
+
+				<section>
+					<img src="./img/diversity.png"/>
+				</section>
+
+				<section>
+					<img src="http://media.tumblr.com/58d9ab164eb7c0021d3fe3af6194fb15/tumblr_inline_mlrpbaN3SV1qz4rgp.gif"/>
+				</section>
+
+				<section>
+					<img src="./img/noidea.png"/>
+				</section>
+
+				<section>
+					<img src="http://25.media.tumblr.com/59dfb1f928bf3f0966bd07d30ab7bc08/tumblr_moxnwec9fL1rvl5pho1_250.gif"/>
+				</section>
+
+				<section>
+					<img src="http://s3-ec.buzzfed.com/static/2013-10/enhanced/webdr02/16/18/anigif_enhanced-buzz-29882-1381963313-1.gif"/>
+				</section>
+
+				<section>
+					<img src="./img/askquestions.png"/>
+				</section>
+
+				<section>
+					<img src="./img/sintradev.png"/>
+				</section>
+
+				<section>
+					<img src="./img/contributorsproject.png"/>
+				</section>
+
+				<section>
+					<img src="http://www.reactiongifs.com/wp-content/uploads/2013/07/success.gif"/>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
