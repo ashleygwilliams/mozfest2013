@@ -12,6 +12,12 @@ http://bit.ly/opensourceparty
 - http://blog.steveklabnik.com/posts/2012-11-08-how-to-squash-commits-in-a-github-pull-request
 - http://rakeroutes.com/blog/deliberate-git/
 
+## Markdown
+- http://daringfireball.net/projects/markdown/syntax
+- http://net.tutsplus.com/tutorials/tools-and-tips/markdown-the-ins-and-outs/
+- http://www.macstories.net/roundups/sublime-text-2-and-markdown-tips-tricks-and-links/
+- http://brettterpstra.com/projects/markdown-service-tools/
+
 ## Mentorships
 - http://www.coglib.com/~icordasc/blog/2013/08/starting-osap.html
 - http://www.pairprogramwith.me/
